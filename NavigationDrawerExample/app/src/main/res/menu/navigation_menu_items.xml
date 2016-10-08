@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_main_items"
+        android:title="Main Navigation Items" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navigation_item_1"
+                    android:icon="@drawable/nav_item_1"
+                    android:title="Navigation Item 1" />
+                <item
+                    android:id="@+id/navigation_item_2"
+                    android:icon="@drawable/nav_item_2"
+                    android:title="Navigation Item 2" />
+                <item
+                    android:id="@+id/navigation_item_3"
+                    android:icon="@drawable/nav_item_3"
+                    android:title="Navigation Item 3" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_sub_menu_items"
+        android:title="Submenu Navigation Items">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navigation_settings"
+                    android:icon="@drawable/icon_nav_item_settings"
+                    android:title="Navigation Item Settings" />
+            </group>
+        </menu>
+    </item>
+</menu>
